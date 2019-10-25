@@ -3,12 +3,11 @@ body {
   color: #000000;
   font-size: 16px;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  margin-left:: 10px;
 }
 
 h1 {
   font-size: 2em; /* 32px */
-  padding-top: 50px;
+  padding-top: 10px;
   font-weight:bold;
   line-height: 120%;
 }
@@ -17,7 +16,7 @@ h3 {
   font-size: 1.2em; /* 32px */
   padding-top: 20px;
   line-height: 130%;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 p {
@@ -29,19 +28,19 @@ p {
 a {
   text-decoration: none;
   color: #ffffff;
-  margin-right:: 10px;
+  display: inline-block;
 }
+
+a:hover { color: #a6a6a6; } /* mouse over */
 
 nav {
   background-color: rgb(108, 1, 248);
-  float: left;
   position: fixed;
   width: 100%;
 }
 
 figcaption {
   background-color: #ffffff;
-  float: left;
   width: 100%;
   line-height: 150%;
 }
@@ -51,33 +50,22 @@ figcaption {
   width: 100px;
 }
 
-.large-pic {
-  width: 10%;
-}
-
 .medium-pic {
   padding-top: 10px;
   width: 100%;
 }
 
-.left, .right {
-  float: left;
-  width: 50%;
-}
-
-.right {
-  float: left;
+.left {
+  width: 20%;
 }
 
 ul {
   list-style-type: none;
-  float: left;
 }
 
 li {
   float: left;
   padding: 20px;
-  margin-top: 50px;
 }
 
 article {
@@ -85,6 +73,6 @@ article {
 }
 
 .container {
-  margin: 10px;
   width: 60%;
+  margin-left: 2%;
 }
